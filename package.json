@@ -4,6 +4,12 @@
   "description": "Random quotes from the Frisky Dingo cartoon",
   "main": "index.js",
   "repository": "git@github.com:thegreenrobot/frisky-dingo-quotes.git",
+  "author": "Matthew Green <thematthewgreen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint index.js cli.js",
+    "test": "xo && ava --verbose"
+  },
   "files": [
     "index.js",
     "cli.js",
@@ -14,8 +20,6 @@
     "quotes",
     "random"
   ],
-  "author": "Matthew Green <thematthewgreen@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/thegreenrobot/frisky-dingo-quotes/issues"
   },
@@ -23,5 +27,10 @@
   "dependencies": {
     "meow": "^3.7.0",
     "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "xo": "^0.18.2"
   }
 }
