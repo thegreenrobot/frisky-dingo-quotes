@@ -1,5 +1,6 @@
 'use strict';
-var uniqueRandomArray = require('unique-random-array');
-var quotes = require('./quotes.json');
+
+const uniqueRandomArray = require('unique-random-array');
+const quotes = require('./quotes.json');
 
 module.exports = uniqueRandomArray(quotes);
