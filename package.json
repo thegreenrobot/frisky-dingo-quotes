@@ -1,0 +1,27 @@
+{
+  "name": "frisky-dingo-quotes",
+  "version": "1.0.0",
+  "description": "Random quotes from the Frisky Dingo cartoon",
+  "main": "index.js",
+  "repository": "git@github.com:thegreenrobot/frisky-dingo-quotes.git",
+  "files": [
+    "index.js",
+    "cli.js",
+    "quotes.json"
+  ],
+  "keywords": [
+    "frisky dingo",
+    "quotes",
+    "random"
+  ],
+  "author": "Matthew Green <thematthewgreen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thegreenrobot/frisky-dingo-quotes/issues"
+  },
+  "homepage": "https://github.com/thegreenrobot/frisky-dingo-quotes#readme",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "unique-random-array": "^1.0.0"
+  }
+}
